@@ -1,0 +1,32 @@
+# --- Dataset & model (besar / bukan milik sendiri) ---
+data/*
+!data/README.md
+models/*
+!models/README.md
+dataset_extracted/
+dataset_gender/
+dataset_48/
+*.h5
+*.keras
+*.zip
+
+# --- Foto pribadi & hasil lokal (JANGAN di-commit) ---
+webcam_photo.jpg
+foto_upload/
+foto_batch/
+hasil_prediksi_gender.csv
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

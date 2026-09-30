@@ -1,0 +1,12 @@
+# Dibuat & diuji dengan Python 3.9 + TensorFlow 2.19 (CPU).
+# Butuh Keras 3 -> TensorFlow >= 2.16.
+tensorflow>=2.16
+opencv-python>=4.10,<5      # jangan pakai versi 5.x (tidak ada CascadeClassifier); bukan "headless" agar jendela kamera bisa tampil
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+pillow
+ipywidgets>=8               # tombol upload foto
+notebook                    # atau jupyterlab
